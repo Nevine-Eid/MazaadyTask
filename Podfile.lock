@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Cosmos (23.0.0)
+  - IBAnimatable (6.1.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MBProgressHUD (1.2.0)
+  - MDFInternationalization (3.0.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+
+DEPENDENCIES:
+  - Cosmos
+  - IBAnimatable
+  - IQKeyboardManagerSwift
+  - "MaterialComponents/TextControls+OutlinedTextFields"
+  - MBProgressHUD
+  - Moya
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - IBAnimatable
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MBProgressHUD
+    - MDFInternationalization
+    - Moya
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+
+PODFILE CHECKSUM: bae8a7cf6a8c18b922bbd0fc4ea4a1045f812dd2
+
+COCOAPODS: 1.11.2

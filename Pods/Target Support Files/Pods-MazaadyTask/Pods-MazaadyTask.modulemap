@@ -1,0 +1,6 @@
+framework module Pods_MazaadyTask {
+  umbrella header "Pods-MazaadyTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
